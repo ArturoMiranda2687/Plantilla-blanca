@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-size: 62.5%;
+    background-image: url(./Recursos/Fondo2.png);
+    background-attachment: fixed;
+    font-family: 'Dancing Script', cursiva;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 1.6rem;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+}
+h3{
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 1.2rem;
+}
+h4{
+    text-align: center;
+    font-size: 1.4rem;
+}
+p{
+    text-align: center;
+    font-size: 1.6rem;
+}
+.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 10s infinite alternate-reverse;
+}
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+.slider img {
+    width: 100%;
+}
+.progd{ 
+    border-right: #063181;
+    border-width: .5rem;
+    border-style: dotted;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+}
+.improg{
+    padding: 25%;
+}
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    75% {margin-left: -200%;}
+
+    80% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+    
+}
+.programa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.programa img{
+    padding: 1rem;
+}
+.programa p{
+    width: 50%;
+    padding: 1rem;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d1dae3;
+    color: #71767f;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border-radius: .4rem;
+    border: .4rem solid #cad3dc;
+    box-shadow: .8rem .8rem 1.5rem rgba(255,255,255,0.5),
+                1rem 1rem 1rem rgba(0,0,0,0.1),
+                inset -.8rem -.8rem 1.5rem rgba(255,255,255,0.5),
+                inset 1rem 1rem 1rem rgba(0,0,0,0.1);
+    margin: 1rem;
+}
+.reloj {
+    padding: 1vmax;
+   
+}
+.linea{
+    width: 1.8rem;
+    height: 1.8rem;
+    background: #71767f;
+    justify-content: center;
+}
+
+
+
+@media (min-width: 600px){
+    .c1{
+        width: 25%;
+        order: 1;
+    }
+    .c2{
+        width: 75%;
+        order: 2;
+    }
+    .c3{
+        width: 100%;
+        order: 3;
+    }
+    .c4{
+        width: 100%;
+        order: 4;
+    }
+    .c5{
+        width: 100%;
+        order: 5;
+    }
+}
+@media (min-width:800px){
+    .c1{
+        width: 30%;
+        order: 1;
+    }
+    .c2{
+        width: 40%;
+        order: 2;
+    }
+    .c3{
+        width: 30%;
+        order: 3;
+    }
+    .c4{
+        width: 50%;
+        order: 4;
+    }
+    .c5{
+        width: 50%;
+        order: 5;
+    }
+}
