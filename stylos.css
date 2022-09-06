@@ -7,7 +7,9 @@
 html{
     font-size: 62.5%;
     background-image: url(./Recursos/Fondo2.png);
-    background-attachment: fixed;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
     font-family: 'Dancing Script', cursiva;
     margin-top: 1.5rem;
     margin-left: 1rem;
