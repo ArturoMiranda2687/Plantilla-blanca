@@ -92,8 +92,9 @@ p{
     align-items: center;
 }
 .programa img{
-    padding: 1rem;
-    width: 50vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 30vw;
 }
 .programa p{
     width: 50vw;
