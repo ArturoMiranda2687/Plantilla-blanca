@@ -32,6 +32,7 @@ h3{
     text-align: center;
     font-size: 1.8rem;
     padding-top: 1.2rem;
+    padding-bottom: 1.5rem;
 }
 h4{
     text-align: center;
@@ -99,6 +100,7 @@ p{
 .programa p{
     width: 50vw;
     padding: 1rem;
+    text-align: center;
 }
 .caja{
     display: flex;
@@ -126,7 +128,9 @@ p{
     background: #71767f;
     justify-content: center;
 }
-
+.mapa{
+    padding-top: 1.5rem;
+}
 
 
 @media (min-width: 600px){
